@@ -1,0 +1,39 @@
+$color: red;
+$heading: purple;
+$list: blue;
+
+#backgroundp{
+  background-color:white;
+}
+
+ul {
+  list-style: square;
+
+  li {
+    padding: 15px;
+    display: inline-block;
+    font-size: 16px;
+    color: $list;
+    }
+
+  }
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 4px dotted $heading;
+}
+
+@media (min-width: 500px){
+  body {
+    background-color: violet;
+  }
+}
+
+@media (max-width: 499px){
+  body {
+    background-color: yellow
+  }
+}
