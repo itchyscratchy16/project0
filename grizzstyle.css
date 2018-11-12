@@ -1,0 +1,48 @@
+body {
+  background-color: thistle; }
+  body h1 {
+    color: brown;
+    text-align: center; }
+
+h1:hover {
+  background-color: Chartreuse; }
+
+p::first-letter {
+  font-weight: bold; }
+
+#pfontstyle {
+  font-style: italic;
+  font-size: 25px;
+  text-align: center; }
+
+.voice, .trivia {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border: 1px solid black;
+  padding: 25px;
+  margin: 20px; }
+
+.voice {
+  background-color: pink;
+  text-align: center; }
+
+.trivia {
+  background-color: orange;
+  text-align: center; }
+
+.center {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto; }
+
+@media (min-width: 500px) {
+  body {
+    background-color: thistle; } }
+@media (max-width: 499px) {
+  body {
+    background-color: yellow; } }
+
+/*# sourceMappingURL=grizzstyle.css.map */
