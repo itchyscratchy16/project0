@@ -1,0 +1,66 @@
+$iceb:azure;
+
+body {
+  background-color: $iceb;
+
+h1 {
+  text-align:center;
+  color: black;
+  font-style: italic;
+}
+}
+
+h1:hover{
+  background-color: tan;
+}
+
+p::first-letter{
+   font-weight: bold;
+  }
+
+  #pdan{
+    font-style: italic;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  %message {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border:1px solid black;
+    padding:25px;
+    margin:20px;
+  }
+
+  .voice {
+    @extend %message;
+    background-color:white;
+    text-align: center;
+  }
+
+  .trivia {
+    @extend %message;
+    background-color: GreenYellow;
+    text-align: center;
+  }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height:auto;
+}
+
+@media (min-width: 500px){
+  body {
+    background-color: $iceb;
+  }
+}
+
+@media (max-width: 499px){
+  body {
+    background-color: yellow
+  }
+}
