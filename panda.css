@@ -1,0 +1,35 @@
+body {
+  background-color: AntiqueWhite; }
+  body h1 {
+    color: DodgerBlue;
+    text-align: center;
+    font-style: italic; }
+  body h1:hover {
+    background-color: Crimson; }
+  body p::first-letter {
+    font-weight: bold; }
+  body #pfont {
+    font-style: italic;
+    font-size: 25px;
+    text-align: center; }
+  body .voice, body .trivia {
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 25px;
+    margin: 20px; }
+  body .voice {
+    background-color: pink;
+    text-align: center; }
+  body .trivia {
+    background-color: yellow;
+    text-align: center; }
+  @media (min-width: 500px) {
+    body body {
+      background-color: violet; } }
+  @media (max-width: 499px) {
+    body body {
+      background-color: yellow; } }
+
+/*# sourceMappingURL=panda.css.map */
