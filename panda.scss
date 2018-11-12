@@ -1,0 +1,60 @@
+$bkgcol: AntiqueWhite;
+
+
+body {
+  background-color: $bkgcol;
+
+h1 {
+  color: DodgerBlue;
+  text-align: center;
+  font-style: italic;
+}
+
+h1:hover {
+  background-color:Crimson;
+}
+
+p::first-letter{
+   font-weight: bold;
+  }
+
+#pfont{
+  font-style: italic;
+  font-size: 25px;
+  text-align: center;
+}
+
+%message {
+  font-family: sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  border:1px solid black;
+  padding:25px;
+  margin:20px;
+}
+
+.voice {
+  @extend %message;
+  background-color:pink;
+  text-align: center;
+}
+
+.trivia {
+  @extend %message;
+  background-color: yellow;
+  text-align: center;
+}
+
+
+@media (min-width: 500px){
+  body {
+    background-color: violet;
+  }
+}
+
+@media (max-width: 499px){
+  body {
+    background-color: yellow
+  }
+}
+}
